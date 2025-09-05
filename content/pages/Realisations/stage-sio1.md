@@ -4,15 +4,11 @@ Title: Stage SIO1
 
 > <u>**Dates du stage :**</u>
 >
-> - **Date début :** XX/06/2025
-> - **Date fin :** XX/06/2025
+> - **Date début :** 19/05/2025
+> - **Date fin :** 27/06/2025
 >
-> **Entreprise :** Nom de l'entreprise
+> **Entreprise :** Sismani
 
+Télécharger mon rapport du stage en pdf :
+<a href="/RAPPORT DE STAGE.pdf" style="padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Télécharger </a>
 
-
-# Présentation de l'entreprise/société :
-
-
-
-# Missions & tâches réalisés : 

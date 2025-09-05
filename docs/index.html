@@ -31,6 +31,8 @@
     
     <!-- STYLES CSS PERSONNEL : -->   
     <link rel="stylesheet" href="./theme/css/custom.css">
+   
+
 
 </head>
 
@@ -179,21 +181,44 @@
                             <div class="hero-text">
                                 <h1>Bonjour ! </h1>
                                 <h2></h2>
-                                <div class="typed-text"> Bienvenue sur mon Portefolio , Je suis Walae Ouahi, Développeur Web</div>
+                                <div class="typed-text"> Bienvenue sur mon Portefolio,Je suis Walae Ouahi,Développeur Web</div>
                             </div>
+                            
                             <div class="hero-btn">
-                                <a class="btn" href="#about">À propos de moi</a>
-                                <a class="btn" href="#contact">Contactez-moi</a>
+                                <a class="btn btn-info" href="#about">À propos de moi</a>
+                                <a class="btn btn-info" href="#contact">Contactez-moi</a>
                             </div>
                         </div>
                     </div>
+                     <div class="col-sm-12 col-md-6">
+                        <div class="hero-image">
+                            <img src="img/profil.jpg" alt="Photo de profil" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $(document).ready(function() {
+      if ($('.hero .hero-text h2').length === 1) {
+        var typed_strings = $('.hero .hero-text .typed-text').text();
+        new Typed('.hero .hero-text h2', {
+          strings: typed_strings.split(','),
+          typeSpeed: 100,
+          backSpeed: 20,
+          smartBackspace: false,
+          loop: true
+        });
+      }
+    });
+  </script>
 
-<div class="text-center py-5">
-    <h1 class="h2">Bienvenue sur mon Portfolio BTS SIO</h1>
-    <p class="lead-4 mt-3">
-        Ce site portefolio a pour objectif de présenter mon parcours de formation et plus particulièrement mes acquis dans le cadre du BTS SIO. C'est pourquoi vous pourrez trouver : les réalisations et activités ayant contribuées (projets, TP) à ma formation, ainsi que ma veille technologique.
-    </p>
-</div>
+
 
 <!-- Affichage des cards de navigation vers PARCOURS, REALISATION, VEILLE -->
  <div class="row text-center g-4">
