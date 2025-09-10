@@ -127,3 +127,13 @@ Couleur des éléments de navigations :
 .navbar-toggler {
     background-color: rgba(255, 255, 255, 1);
 }
+.hero .hero-text .typed-text {
+    display: none; /* cache le div source */
+}
+
+.hero .hero-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 10px;
+}
+

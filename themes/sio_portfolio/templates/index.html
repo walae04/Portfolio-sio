@@ -40,25 +40,8 @@ _______________________________________________________________________________
                 </div>
             </div>
         </div>
- <!-- jQuery CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- Typed.js CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="js/custom.js"></script>
-  <script>
-    $(document).ready(function() {
-      if ($('.hero .hero-text h2').length === 1) {
-        var typed_strings = $('.hero .hero-text .typed-text').text();
-        new Typed('.hero .hero-text h2', {
-          strings: typed_strings.split(','),
-          typeSpeed: 100,
-          backSpeed: 20,
-          smartBackspace: false,
-          loop: true
-        });
-      }
-    });
-  </script>
+
+
 
 
 
@@ -77,5 +60,12 @@ _______________________________________________________________________________
     </div>    
 {% endfor %}
 </div>
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<!-- Typed.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- Mon JS perso -->
+<script src="{{ THEME_STATIC_URL }}/js/custom.js"></script>
 {% endblock %}
