@@ -25,11 +25,6 @@ _______________________________________________________________________________
                                 <h2></h2>
                                 <div class="typed-text"> Bienvenue sur mon Portefolio,Je suis Walae Ouahi,Développeur Web</div>
                             </div>
-                            
-                            <div class="hero-btn">
-                                <a class="btn btn-dark" href="#about">À propos de moi</a>
-                                <a class="btn btn-dark" href="#contact">Contactez-moi</a>
-                            </div>
                         </div>
                     </div>
                      <div class="col-sm-12 col-md-6">
@@ -40,7 +35,86 @@ _______________________________________________________________________________
                 </div>
             </div>
         </div>
-<!-- Affichage des cards de navigation vers PARCOURS, REALISATION, VEILLE -->
+<!-- Compétences start-->
+<section class="ftco-section" id="skills-section">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p class="text-dark">Mes compétences</p>
+        </div>
+        <div class="row skill">
+            <div class="col-md-6 col-lg-4 animate-box cube services-1">
+                <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
+                    <span class="icon-skill">💻</span>
+                    <h3>JAVASCRIPT | TYPESCRIPT</h3>	
+                    <ul>
+                        <li>Programmation Orientée Objet (POO)</li>
+                        <li>Structure de contrôle</li>
+                        <li>Fonctions fléchées</li>
+                    </ul>				
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4 animate-box cube services-1">
+                <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
+                    <span class="icon-skill">☕</span>
+                    <h3>JAVA | KOTLIN</h3>
+                    <ul>
+                        <li>Programmation Orientée Objet (POO)</li>
+                        <li>Structure de contrôle</li>
+                        <li>Fonctions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 animate-box cube services-1">
+                <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
+                    <span class="icon-skill">🐍</span>
+                    <h3>PYTHON</h3>
+                    <ul>
+                        <li>Programmation Orientée Objet (POO)</li>
+                        <li>Structure de contrôle</li>
+                        <li>Fonctions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 animate-box cube services-1">
+                <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
+                    <span class="icon-skill">🐘</span>
+                    <h3>PHP</h3>
+                    <ul>
+                        <li>Programmation Orientée Objet (POO)</li>
+                        <li>Fonctions</li>			
+                        <li>PDO</li>		
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 animate-box cube services-1">
+                <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
+                    <span class="icon-skill">🎨</span>
+                    <h3>HTML | CSS</h3>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Site web</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 animate-box cube services-1">
+                <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
+                    <span class="icon-skill">🗄️</span>
+                    <h3>SQL</h3>
+                    <ul>
+                        <li>Manipulation de données</li>
+                        <li>Création et gestion de bases de données</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Affichage des cards de navigation vers PARCOURS, REALISATION, VEILLE 
  <div class="row text-center g-4">
 {% for nom, url, icone, sousNav, description, couleur in MAINITEMS %}
     <div class="col-md-4">
@@ -54,7 +128,7 @@ _______________________________________________________________________________
         </div>
     </div>    
 {% endfor %}
-</div>
+</div> -->
 <!-- jQuery CDN -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 

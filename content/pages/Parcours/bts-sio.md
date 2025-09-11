@@ -1,110 +1,144 @@
 Title: BTS SIO
 
-# BTS SIO – Services Informatiques aux Organisations
+<!-- Titre centré avec zoom -->
+<h1 class="center wow animated zoomIn">BTS SIO – Services Informatiques aux Organisations</h1>
 
-Le **BTS SIO** est un diplôme national de niveau **BAC +2** orienté vers les métiers de l’informatique.  
+<!-- Définition BTS -->
+<div class="bts-definition">
+Le <strong>BTS SIO</strong> est un diplôme national de niveau <strong>BAC +2</strong> orienté vers les métiers de l’informatique.<br>
 Il forme des techniciens capables d’installer, de configurer, de maintenir des infrastructures informatiques ou de développer des applications répondant aux besoins des organisations.
+</div>
 
----
+<hr>
 
-## Présentation générale
-- **Durée** : 2 ans  
-- **Niveau d’accès** : après un baccalauréat (général, technologique STI2D, STMG, pro SN, etc.)  
-- **Statut** : formation initiale ou alternance  
-- **Diplôme** : BTS (Brevet de Technicien Supérieur), diplôme d’État  
+<!-- Options -->
+<h2 class="center">Les deux options du BTS SIO</h2>
+<div class="options-container">
 
----
+<div class="option wow animated fadeInLeft" data-wow-delay="0.2s">
+<h3>1. Option <strong>SISR</strong> (Solutions d’Infrastructure, Systèmes et Réseaux)</h3>
+<p>Cette option forme à la gestion des systèmes informatiques et des réseaux. Les étudiants apprennent à mettre en place, administrer et sécuriser des infrastructures.</p>
 
-## Les deux options du BTS SIO
+<strong>Compétences développées :</strong>
+<ul>
+<li>Installation et configuration de serveurs (Linux, Windows Server)</li>
+<li>Gestion des réseaux (routage, VLAN, DHCP, DNS, etc.)</li>
+<li>Sécurité des infrastructures (pare-feu, VPN, sauvegardes, supervision)</li>
+<li>Virtualisation et cloud (VMware, Hyper-V, conteneurs)</li>
+<li>Support et assistance technique</li>
+</ul>
 
-### 1. Option **SISR** (Solutions d’Infrastructure, Systèmes et Réseaux)
-Cette option forme à la gestion des systèmes informatiques et des réseaux.  
-Les étudiants apprennent à mettre en place, administrer et sécuriser des infrastructures.
+<strong>Débouchés métiers :</strong>
+<ul>
+<li>Technicien systèmes et réseaux</li>
+<li>Administrateur systèmes junior</li>
+<li>Technicien support / helpdesk</li>
+<li>Assistant sécurité informatique</li>
+</ul>
+</div>
 
-**Compétences développées :**
-- Installation et configuration de serveurs (Linux, Windows Server)  
-- Gestion des réseaux (routage, VLAN, DHCP, DNS, etc.)  
-- Sécurité des infrastructures (pare-feu, VPN, sauvegardes, supervision)  
-- Virtualisation et cloud (VMware, Hyper-V, conteneurs)  
-- Support et assistance technique  
+<div class="option wow animated fadeInRight" data-wow-delay="0.2s">
+<h3>2. Option <strong>SLAM</strong> (Solutions Logicielles et Applications Métiers)</h3>
+<p>Cette option est orientée vers le <strong>développement logiciel et web</strong>. Les étudiants apprennent à concevoir, développer et maintenir des applications.</p>
 
-**Débouchés métiers :**
-- Technicien systèmes et réseaux  
-- Administrateur systèmes junior  
-- Technicien support / helpdesk  
-- Assistant sécurité informatique  
+<strong>Compétences développées :</strong>
+<ul>
+<li>Programmation (Java, C#, Python, PHP, Kotlin…)</li>
+<li>Développement web (HTML, CSS, JavaScript, frameworks)</li>
+<li>Développement d’applications mobiles</li>
+<li>Gestion de bases de données (SQL, MySQL, PostgreSQL, Oracle)</li>
+<li>Méthodes de gestion de projets (cycle en V, Agile)</li>
+<li>Documentation technique et travail en équipe</li>
+</ul>
 
----
+<strong>Débouchés métiers :</strong>
+<ul>
+<li>Développeur d’applications (web, mobile, logiciel)</li>
+<li>Analyste programmeur</li>
+<li>Intégrateur d’applications</li>
+<li>Testeur / chargé de validation</li>
+</ul>
+</div>
 
-### 2. Option **SLAM** (Solutions Logicielles et Applications Métiers)
-Cette option est orientée vers le **développement logiciel et web**.  
-Les étudiants apprennent à concevoir, développer et maintenir des applications.
+</div>
 
-**Compétences développées :**
-- Programmation (Java, C#, Python, PHP, Kotlin…)  
-- Développement web (HTML, CSS, JavaScript, frameworks)  
-- Développement d’applications mobiles  
-- Gestion de bases de données (SQL, MySQL, PostgreSQL, Oracle)  
-- Méthodes de gestion de projets (cycle en V, Agile)  
-- Documentation technique et travail en équipe  
+<hr>
 
-**Débouchés métiers :**
-- Développeur d’applications (web, mobile, logiciel)  
-- Analyste programmeur  
-- Intégrateur d’applications  
-- Testeur / chargé de validation  
+<!-- Organisation de la formation -->
+<h2 class="center">Organisation de la formation</h2>
+<div class="organisation-container">
 
----
+<div class="matiere wow animated fadeInLeft" data-wow-delay="0.2s">
+<h3>Matières générales (tronc commun)</h3>
+<ul>
+<li>Culture générale et expression</li>
+<li>Anglais technique</li>
+<li>Mathématiques appliquées à l’informatique</li>
+<li>Économie, management et droit</li>
+</ul>
+</div>
 
-## Organisation de la formation
+<div class="matiere wow animated fadeInRight" data-wow-delay="0.2s">
+<h3>Matières professionnelles</h3>
+<ul>
+<li>Analyse économique, managériale et juridique des services informatiques</li>
+<li>Enseignements techniques spécifiques à l’option choisie (SISR ou SLAM)</li>
+<li>Projets tutorés et ateliers professionnels</li>
+</ul>
+</div>
 
-### Matières générales (tronc commun) :
-- Culture générale et expression  
-- Anglais technique  
-- Mathématiques appliquées à l’informatique  
-- Économie, management et droit  
+</div>
 
-### Matières professionnelles :
-- Analyse économique, managériale et juridique des services informatiques  
-- Enseignements techniques spécifiques à l’option choisie (SISR ou SLAM)  
-- Projets tutorés et ateliers professionnels  
+<!-- CSS -->
+<style>
+.center {
+    text-align: center;
+}
 
-### Stage :
-- **10 à 12 semaines** de stage en entreprise réparties sur les 2 années  
-- Permet de mettre en pratique les compétences acquises et de réaliser un projet professionnel  
+.bts-definition {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-left: 5px solid #54647e;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
 
----
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
 
-## Poursuites d’études
+.option {
+    flex: 1 1 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
 
-Après un BTS SIO, plusieurs choix sont possibles :  
+.organisation-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
 
-- **Licences professionnelles** (bac +3) :  
-  - Développement web et mobile  
-  - Cybersécurité  
-  - Administration systèmes et réseaux  
-  - Data & cloud computing  
+.matiere {
+    flex: 1 1 45%;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
 
-- **BUT Informatique (entrée en 2e ou 3e année possible)**  
-
-- **Écoles d’ingénieurs en informatique** (via admissions parallèles)  
-
-- **Formations spécialisées** (Bachelor, certification cybersécurité, cloud, développement, etc.)  
-
----
-
-## Insertion professionnelle
-
-Le BTS SIO permet également une **insertion directe sur le marché du travail** :  
-- En **SISR** : technicien réseaux, administrateur systèmes junior, assistant cybersécurité  
-- En **SLAM** : développeur web, développeur d’applications, intégrateur logiciel  
-
-Ce diplôme est reconnu et recherché par les entreprises (PME, SSII/ESN, collectivités publiques).  
-
----
-
-## Points forts du BTS SIO
-- Formation **polyvalente et professionnalisante**  
-- Très bon taux d’insertion professionnelle  
-- Adaptée aussi bien à la poursuite d’études qu’à l’entrée rapide dans le monde du travail  
-- Deux options permettant une spécialisation claire (réseaux/systèmes ou développement)  
+@media (max-width: 768px) {
+    .options-container, .organisation-container {
+        flex-direction: column;
+    }
+    .option, .matiere {
+        flex: 1 1 100%;
+    }
+}
+</style>

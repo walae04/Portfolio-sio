@@ -144,5 +144,60 @@ Couleur des éléments de navigations :
     display: block;
     margin: 0 auto;
 }
+/* Section Skills */
+#skills-section {
+    padding: 60px 0;
+    
+}
+
+#skills-section .section-header p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #54647e;
+    margin-bottom: 40px;
+}
+
+/* Card style */
+.skill-card {
+    background: #fff;
+    padding: 25px 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    text-align: center;
+    height: 250px; 
+    min-width: 250px;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    background: #e0e6f0;
+}
+
+.skill-card .icon-skill {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.skill-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #54647e;
+}
+
+.skill-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.skill-card ul li {
+    margin-bottom: 8px;
+}
 
 

@@ -1,5 +1,5 @@
 Title: Parcours scolaire
-# Mon parcours
+# Mon parcours {.center .wow .animated .zoomIn}
 <Voici mon parcours ci-dessous:>
         <div class="experience" id="experience">
             <div class="container">
@@ -48,6 +48,9 @@ Title: Parcours scolaire
             </div>
         </div>
 <style>
+    .center {
+  text-align: center;
+}
 .experience {
     position: relative;
     padding: 45px 0 15px 0;
@@ -60,7 +63,7 @@ Title: Parcours scolaire
     content: '';
     position: absolute;
     width: 2px;
-    background: #a35536;
+    background: #54647eff;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -88,7 +91,7 @@ Title: Parcours scolaire
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #a35536;
+    border: 2px solid #54647eff;
     border-radius: 16px;
     z-index: 1;
 }
@@ -116,7 +119,7 @@ Title: Parcours scolaire
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #a35536;
+    color: #54647eff;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;

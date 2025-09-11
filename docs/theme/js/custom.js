@@ -30,6 +30,12 @@ $(document).ready(function() {
     }
 });
 
+function changerCouleur(element) {
+    element.querySelector('.icon-skill').style.color = '#007BFF';
+}
 
+function revenirCouleur(element) {
+    element.querySelector('.icon-skill').style.color = '';
+}
     
 
