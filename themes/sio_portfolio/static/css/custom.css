@@ -57,7 +57,7 @@ Définition du fond :
 --------------------
 */
 body {
-    background-image: linear-gradient(0deg, rgba(49, 154, 224, 0.15), rgba(255, 255, 255, 0.95));
+    background-image: linear-gradient(0deg, rgba(138, 39, 138, 0.918), rgb(175, 230, 255));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /*contain*/ 
@@ -76,7 +76,7 @@ Définition du fond du header :
 */
 
 .background-header {
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.95)), url('../backgrounds/header_background.png');
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfrvJJIlBpuWHrkl2C4YQTg4xHOymIJGd6NM16HoxIqfta1s8CvVG7_WOqoyBgT2YJ0j0&usqp=CAU);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /*contain*/ 
@@ -100,7 +100,7 @@ Couleur des éléments de navigations :
 }
 
 .nav-link:hover, .dropdown-item:hover {
-    color: var(--bs-font);
+    color: purple;
 }
 
 .nav-link:active {
@@ -125,7 +125,7 @@ Couleur des éléments de navigations :
 
 
 .navbar-toggler {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
 }
 .hero .hero-text .typed-text {
     display: none; /* cache le div source */
@@ -198,6 +198,33 @@ Couleur des éléments de navigations :
 
 .skill-card ul li {
     margin-bottom: 8px;
+}
+/* parcours scolaire*/
+h1 {
+    text-align: center;
+}
+
+.year {
+  position: relative;
+  background: #ffffff;
+  padding: 20px 25px;
+  margin: 20px auto;
+  width: 40%;
+  border-left: 4px solid #54647eff; 
+  border-right: 4px solid #54647eff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+/* Bloc gauche */
+.year:nth-child(odd) {
+  margin-left: 70px;   
+  margin-right: auto; 
+}
+
+/* Bloc droite */
+.year:nth-child(even) {
+  margin-left: auto;  
+  margin-right: 70px;    
 }
 
 
