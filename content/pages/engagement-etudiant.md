@@ -1,31 +1,33 @@
 Title: Engagement étudiant
 
+### 📚 Tutorat scolaire en mathématiques {.center .wow .animated .zoomIn}
 
-# 🤝 Engagement Étudiant
+<div style="text-align: center;">
+    <img src="../theme/images/tutorat.jpg" class="img-fluid w-50 rounded border mx-auto d-block"alt="Étudiant(e) en bibliothèque">
+</div>
 
-## 🚒 Pompier volontaire
+En parallèle de mes études en BTS SIO, j’ai assuré pendant 1 an du tutorat en mathématiques pour des lycéens.
 
-En parallèle de mes études en BTS SIO, je suis **pompier volontaire** depuis 2 ans au sein du centre de secours de [VilleFictive].  
+**Mes missions principales :**
 
-### Mes missions principales
-- Interventions de secours à personnes (accidents, urgences médicales).  
-- Lutte contre les incendies et protection des biens.  
-- Assistance en cas de catastrophes naturelles ou d’accidents de la route.  
-- Sensibilisation à la prévention des risques (auprès du grand public et des écoles).  
+- Accompagnement individuel et en petits groupes pour améliorer la compréhension des concepts mathématiques.
+- Aide à la préparation des examens et devoirs.
+- Organisation d’exercices pratiques et d’ateliers pour rendre les notions plus accessibles.
+- Suivi de la progression des élèves et conseils personnalisés.
 
-### Compétences développées
-- **Rigueur et discipline** : respect strict des procédures de sécurité.  
-- **Gestion du stress** : réagir rapidement et efficacement en situation d’urgence.  
-- **Travail en équipe** : coordination avec d’autres pompiers, médecins, gendarmes.  
-- **Sens du service** : engagement au profit des autres et esprit de solidarité.  
-- **Organisation** : concilier études exigeantes et disponibilité opérationnelle.  
+**Compétences développées :**
 
-### Ce que cela m’apporte dans mes études
-Être pompier volontaire m’aide à développer des **qualités humaines et professionnelles** utiles en informatique :  
-- La gestion des priorités et des imprévus.  
-- La capacité à travailler en **mode projet**, comme lors d’une intervention.  
-- L’esprit d’entraide et la communication claire, essentiels dans une équipe informatique.  
+- **Pédagogie et communication** : expliquer clairement des notions complexes.
+- **Patience et écoute** : adapter l’enseignement aux besoins de chaque élève.
+- **Organisation et planification** : préparer les séances et gérer le temps efficacement.
+- **Travail en équipe** : coordination avec les enseignants et autres tuteurs.
 
----
+**Ce que cela m’apporte dans mes études :**
 
-📌 *Mon engagement de pompier volontaire illustre ma motivation à mettre mes compétences au service des autres, que ce soit dans le cadre d’interventions d’urgence ou dans mes projets informatiques.*  
+Le tutorat m’a permis de développer des qualités humaines et professionnelles utiles en informatique :  
+
+- Capacité à transmettre des connaissances et documenter des projets.  
+- Gestion des priorités et planification des tâches.  
+- Communication claire et efficace dans le cadre de projets collaboratifs.
+
+> 📌 Mon engagement en tutorat illustre ma motivation à partager mes compétences et à soutenir les autres, tout en renforçant mes aptitudes pédagogiques et organisationnelles, essentielles pour le développement de projets informatiques.

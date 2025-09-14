@@ -66,7 +66,8 @@ MENUITEMS = (
     ("Mon parcours", "/pages/parcours", "mortarboard",
         (
             ("Parcours scolaire", "/pages/parcours-scolaire"),
-            ("Le BTS SIO", "/pages/bts-sio")
+            ("Le BTS SIO", "/pages/bts-sio"),
+            ("CV", "/pages/cv")
         ),
         "Découvrez mon parcours scolaire et professionnel.", "primary"
     ),
@@ -75,10 +76,6 @@ MENUITEMS = (
         (
             ("TP majeurs", "/pages/tp-majeurs"),
             ("Stage de 1ère année", "/pages/stage-sio1"),
-            ("Stage de 2e année", "/pages/stage-sio2"),
-            ("Projets scolaires", "/pages/projets-scolaires"),
-            ("Projets personnels", "/pages/projets-personnels"),                             # Optionnel
-            ("Certifications complémentaires", "/pages/certifications-complementaires") # Optionnel
         ),
         "Accédez aux projets et TP réalisés pendant ma formation et à mes projets personnels.", "success"
      ),
@@ -86,10 +83,6 @@ MENUITEMS = (
     ("Veille techno.", "/ma-veille", "broadcast-pin",
         (
         ("Ma veille technologique", "/ma-veille"),
-        ("Archive des articles", "/archives"),
-        ("Liste des catégories", "/categories"),
-        ("Liste des auteurs", "/authors"),
-        ("Liste des mots clés", "/tags")
         ),
         "Consultez les articles de veille technologique que j’ai suivis durant cette année.", "warning"
     ),

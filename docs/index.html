@@ -119,6 +119,7 @@
                                 <ul class="dropdown-menu bg-dark-subtle">
                                         <li><a class="dropdown-item" href="./pages/parcours-scolaire">Parcours scolaire</a></li>
                                         <li><a class="dropdown-item" href="./pages/bts-sio">Le BTS SIO</a></li>
+                                        <li><a class="dropdown-item" href="./pages/cv">CV</a></li>
                                 </ul> 
                         </li>
                         <li class="nav-item dropdown">
@@ -133,10 +134,6 @@
                                 <ul class="dropdown-menu bg-dark-subtle">
                                         <li><a class="dropdown-item" href="./pages/tp-majeurs">TP majeurs</a></li>
                                         <li><a class="dropdown-item" href="./pages/stage-sio1">Stage de 1ère année</a></li>
-                                        <li><a class="dropdown-item" href="./pages/stage-sio2">Stage de 2e année</a></li>
-                                        <li><a class="dropdown-item" href="./pages/projets-scolaires">Projets scolaires</a></li>
-                                        <li><a class="dropdown-item" href="./pages/projets-personnels">Projets personnels</a></li>
-                                        <li><a class="dropdown-item" href="./pages/certifications-complementaires">Certifications complémentaires</a></li>
                                 </ul> 
                         </li>
                         <li class="nav-item dropdown">
@@ -150,10 +147,6 @@
                             
                                 <ul class="dropdown-menu bg-dark-subtle">
                                         <li><a class="dropdown-item" href="./ma-veille">Ma veille technologique</a></li>
-                                        <li><a class="dropdown-item" href="./archives">Archive des articles</a></li>
-                                        <li><a class="dropdown-item" href="./categories">Liste des catégories</a></li>
-                                        <li><a class="dropdown-item" href="./authors">Liste des auteurs</a></li>
-                                        <li><a class="dropdown-item" href="./tags">Liste des mots clés</a></li>
                                 </ul> 
                         </li>
                         <li class="nav-item ">
@@ -188,44 +181,80 @@
                                 <h1 class="text-start">Bonjour ! </h1>
                                 <h2></h2>
                                 <div class="typed-text"> Bienvenue sur mon Portefolio,Je suis Walae Ouahi,Développeur Web</div>
+
+                                <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 d-flex flex-column justify-content-center">
+                                    <ul class="socials list-unstyled d-flex gap-3">
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/walae-ouahi/" target="_blank" title="Profile Linkedin"><i class="bi bi-linkedin"></i>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/walae04" target="_blank" title="Profile Github"><i class="bi bi-github"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>    
                             </div>
                         </div>
                     </div>
                      <div class="col-sm-12 col-md-6">
                         <div class="hero-image">
-                            <img src="theme/images/profil.jpeg" alt="Photo de profil" class="profile-img mb-4">
+                            <img src="theme/images/profil.png" alt="Photo de profil" class="profile-img mb-4">
                         </div>
 
                     </div>
-                    <div class="col-md-8">
-                        <h2>À propos de moi</h2>
-                        <p>Je suis Walae Ouahi, développeur web passionné par les technologies front-end et back-end. J’aime créer des sites web modernes, optimisés et interactifs. Mon objectif est de proposer des solutions efficaces et élégantes pour mes clients ou projets personnels.</p>
-                    </div>
+                    <div class="row align-items-center about-section">
+    <!-- Image -->
+    <div class="col-md-6 text-center">
+        <div class="about-image">
+            <img src="theme/images/light.jpg" alt="À propos" class="about-img img-fluid rounded shadow">
+        </div>
+    </div>
+
+    <!-- Texte -->
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <div class="about-me">
+            <h2 class="mb-4 text-center">À propos de moi</h2>
+            <p>
+                Je suis Walae Ouahi, apprenante en BTS SIO (Services Informatiques aux Organisations) au Lycée Léonard De Vinci,
+                dans la spécialité SLAM (Solutions Logicielles et Applications Métiers). 
+                Je suis passionnée par les technologies front-end et back-end. 
+                J’aime créer des sites web modernes, optimisés et interactifs. 
+                Ce portfolio est une vitrine de mes réalisations académiques, de mes compétences et de mon parcours. 
+                Vous découvrirez mes projets, mon engagement dans l'informatique et mon parcours académique.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+                    </div>                
                 </div>
             </div>
         </div>
-<!-- Compétences start-->
+<!-- Compétences start -->
 <section class="ftco-section" id="skills-section">
     <div class="container">
         <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
             <p class="text-dark">Mes compétences</p>
         </div>
         <div class="row skill">
+
+            <!-- JavaScript / TypeScript -->
             <div class="col-md-6 col-lg-4 animate-box cube services-1">
                 <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
-                    <span class="icon-skill">💻</span>
-                    <h3>JAVASCRIPT | TYPESCRIPT</h3>	
+                    <span class="icon-skill"><i class="bi bi-code-slash"></i></span>
+                    <h3>JAVASCRIPT | TYPESCRIPT</h3>
                     <ul>
                         <li>Programmation Orientée Objet (POO)</li>
                         <li>Structure de contrôle</li>
                         <li>Fonctions fléchées</li>
-                    </ul>				
+                    </ul>
                 </div>
             </div>
-            
+
+            <!-- Java / Kotlin -->
             <div class="col-md-6 col-lg-4 animate-box cube services-1">
                 <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
-                    <span class="icon-skill">☕</span>
+                    <span class="icon-skill"><i class="bi bi-file-code"></i></span>
                     <h3>JAVA | KOTLIN</h3>
                     <ul>
                         <li>Programmation Orientée Objet (POO)</li>
@@ -235,9 +264,10 @@
                 </div>
             </div>
 
+            <!-- Python -->
             <div class="col-md-6 col-lg-4 animate-box cube services-1">
                 <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
-                    <span class="icon-skill">🐍</span>
+                    <span class="icon-skill"><i class="bi bi-terminal-fill"></i></span>
                     <h3>PYTHON</h3>
                     <ul>
                         <li>Programmation Orientée Objet (POO)</li>
@@ -247,21 +277,23 @@
                 </div>
             </div>
 
+            <!-- PHP -->
             <div class="col-md-6 col-lg-4 animate-box cube services-1">
                 <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
-                    <span class="icon-skill">🐘</span>
+                    <span class="icon-skill"><i class="bi bi-file-code-fill"></i></span>
                     <h3>PHP</h3>
                     <ul>
                         <li>Programmation Orientée Objet (POO)</li>
-                        <li>Fonctions</li>			
-                        <li>PDO</li>		
+                        <li>Fonctions</li>
+                        <li>PDO</li>
                     </ul>
                 </div>
             </div>
 
+            <!-- HTML / CSS -->
             <div class="col-md-6 col-lg-4 animate-box cube services-1">
                 <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
-                    <span class="icon-skill">🎨</span>
+                    <span class="icon-skill"><i class="bi bi-code"></i></span>
                     <h3>HTML | CSS</h3>
                     <ul>
                         <li>Bootstrap</li>
@@ -270,9 +302,10 @@
                 </div>
             </div>
 
+            <!-- SQL -->
             <div class="col-md-6 col-lg-4 animate-box cube services-1">
                 <div class="skill-card" onmouseenter="changerCouleur(this)" onmouseleave="revenirCouleur(this)">
-                    <span class="icon-skill">🗄️</span>
+                    <span class="icon-skill"><i class="bi bi-database-fill"></i></span>
                     <h3>SQL</h3>
                     <ul>
                         <li>Manipulation de données</li>
@@ -280,9 +313,12 @@
                     </ul>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
+<!-- Compétences end -->
+
 <!-- Affichage des cards de navigation vers PARCOURS, REALISATION, VEILLE 
  <div class="row text-center g-4">
     <div class="col-md-4">

@@ -1,6 +1,9 @@
 Title: Parcours scolaire
 # Mon parcours {.center .wow .animated .zoomIn}
 
+<div style="text-align: center;">
+    <img src="../theme/images/parcours.jpg" class="img-fluid w-50 rounded border mx-auto d-block"alt="Étudiant(e) en bibliothèque">
+</div>
 <div class="year text-center">
 📌 <strong>2025  </strong>
 🚀 Stage développement d'application  
